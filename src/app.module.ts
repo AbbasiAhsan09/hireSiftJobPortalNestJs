@@ -8,6 +8,10 @@ import { StateModule } from './state/state.module';
 import { CountryModule } from './country/country.module';
 import { EmployerModule } from './employer/employer.module';
 import { IndustryModule } from './industry/industry.module';
+import { UserRolesModule } from './user-roles/user-roles.module';
+import { UserModule } from './user/user.module';
+import { UserExperienceModule } from './user-experience/user-experience.module';
+import { DesignationModule } from './designation/designation.module';
 
 @Module({
   imports: [
@@ -20,6 +24,10 @@ import { IndustryModule } from './industry/industry.module';
   CountryModule,
   EmployerModule,
   IndustryModule,
+  UserRolesModule,
+  UserModule,
+  UserExperienceModule,
+  DesignationModule,
 ],
   controllers: [AppController],
   providers: [AppService],
