@@ -12,6 +12,9 @@ import { UserRolesModule } from './user-roles/user-roles.module';
 import { UserModule } from './user/user.module';
 import { UserExperienceModule } from './user-experience/user-experience.module';
 import { DesignationModule } from './designation/designation.module';
+import { UserAcademicModule } from './user-academic/user-academic.module';
+import { SchoolModule } from './school/school.module';
+import { UserCvModule } from './user-cv/user-cv.module';
 
 @Module({
   imports: [
@@ -28,6 +31,9 @@ import { DesignationModule } from './designation/designation.module';
   UserModule,
   UserExperienceModule,
   DesignationModule,
+  UserAcademicModule,
+  SchoolModule,
+  UserCvModule,
 ],
   controllers: [AppController],
   providers: [AppService],

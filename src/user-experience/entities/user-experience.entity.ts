@@ -1,4 +1,4 @@
-import {  AutoIncrement, BelongsTo, Column, CreatedAt, DataType, DeletedAt, ForeignKey, HasOne, Model, PrimaryKey, Table, UpdatedAt } from "sequelize-typescript";
+import {  AutoIncrement, Column, CreatedAt, DataType, DeletedAt, ForeignKey, HasOne, Model, PrimaryKey, Table, UpdatedAt } from "sequelize-typescript";
 import { Designation } from "src/designation/entities/designation.entity";
 import { Employer } from "src/employer/entities/employer.entity";
 
